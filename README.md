@@ -17,4 +17,9 @@ In your terminal `mkdir app_name` & `cd app_name` then use the below commands:
 
 Note: for more information you can use the command `dotnet -h`.
 
+- Make sure your on v.6.0 / copy Program.cs and startup.cs from here / and from launchSettings.json make sure that  ` "applicationUrl": "https://localhost:5001;http://localhost:5000" `.
+
+5.  `dotnet dev-certs https --trust` for trusting the HTTPS development certificate. 
+6. Back to powershell and `cd API` then run your app `dotnet run`.
+
 
